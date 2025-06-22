@@ -1,0 +1,7 @@
+{
+  "parent": "starcraft:custom/fusil_gauss_c-14_empalador",
+  "textures": {
+    "0": "starcraft:block/fusil_gauss_c-14_empalador",
+    "particle": "minecraft:item/crossbow_firework"
+  }
+}

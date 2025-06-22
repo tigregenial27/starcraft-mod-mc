@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fusil_gauss_c-14_empalador"
+      },
+      "name": "default"
+    }
+  }
+}

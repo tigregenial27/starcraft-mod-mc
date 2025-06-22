@@ -1,0 +1,7 @@
+{
+  "parent": "starcraft:custom/goliad_arms",
+  "textures": {
+    "0": "starcraft:block/goliad_arm",
+    "particle": "starcraft:item/blde"
+  }
+}

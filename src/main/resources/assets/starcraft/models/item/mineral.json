@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "starcraft:item/7463f17d-fcf7-4d3d-bb5e-36acdd2aba3c"
+  }
+}

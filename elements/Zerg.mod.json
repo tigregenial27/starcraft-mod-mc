@@ -1,0 +1,23 @@
+{
+  "_fv": 73,
+  "_type": "attribute",
+  "definition": {
+    "name": "Zerg",
+    "minValue": 0.0,
+    "maxValue": 1.0,
+    "defaultValue": 0.0,
+    "addToAllEntities": false,
+    "addToPlayers": false,
+    "entities": [
+      {
+        "value": "CUSTOM:Zergling"
+      },
+      {
+        "value": "CUSTOM:Hydralisk"
+      },
+      {
+        "value": "CUSTOM:Overlord"
+      }
+    ]
+  }
+}

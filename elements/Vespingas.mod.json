@@ -1,0 +1,65 @@
+{
+  "_fv": 73,
+  "_type": "fluid",
+  "definition": {
+    "name": "Bespin gas",
+    "bucketName": "Bespin gas Bucket",
+    "textureStill": "vespin_gas",
+    "textureFlowing": "vespin_gas",
+    "textureRenderOverlay": "",
+    "hasFog": true,
+    "fogColor": {
+      "value": -16764160,
+      "falpha": 0.0
+    },
+    "fogStartDistance": {
+      "fixedValue": 0.0
+    },
+    "fogEndDistance": {
+      "fixedValue": 48.0
+    },
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 5,
+    "slopeFindDistance": 10,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "SPIT"
+    },
+    "flowStrength": 0.5,
+    "luminosity": 5,
+    "density": 500,
+    "viscosity": 500,
+    "temperature": 1000,
+    "type": "LAVA",
+    "generateBucket": true,
+    "textureBucket": "gas_bespeno",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Scblocks"
+      }
+    ],
+    "emptySound": {
+      "value": "block.lava.pop"
+    },
+    "rarity": "RARE",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 5,
+    "lightOpacity": 15,
+    "emissiveRendering": true,
+    "tickRate": 0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "GREEN",
+    "onEntityCollides": {
+      "name": "BespingasAlEntidadColisionarConElBloque"
+    },
+    "onRandomUpdateEvent": {
+      "name": "BespingasEnTicksAleatoriosDelCliente"
+    }
+  }
+}

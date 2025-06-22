@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Terran mobs",
+    "icon": {
+      "value": "CUSTOM:Terranlogo"
+    },
+    "showSearch": false
+  }
+}

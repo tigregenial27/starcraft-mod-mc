@@ -1,0 +1,1032 @@
+{
+  "mod_elements": [
+    {
+      "name": "Blade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/BladeItem.java",
+          "src/main/resources/assets/starcraft/models/item/blade.json"
+        ]
+      }
+    },
+    {
+      "name": "Zealot",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zealot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/entity/ZealotEntity.java",
+          "src/main/resources/assets/starcraft/models/item/zealot_spawn_egg.json",
+          "src/main/java/net/mcreator/starcraft/client/renderer/ZealotRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Overlord",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlord",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/client/renderer/OverlordRenderer.java",
+          "src/main/java/net/mcreator/starcraft/entity/OverlordEntity.java",
+          "src/main/resources/assets/starcraft/models/item/overlord_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Zergling",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zergling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/entity/ZerglingEntity.java",
+          "src/main/resources/assets/starcraft/models/item/zergling_spawn_egg.json",
+          "src/main/java/net/mcreator/starcraft/client/renderer/ZerglingRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Buleditem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buleditem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/buleditem.json",
+          "src/main/java/net/mcreator/starcraft/item/BuleditemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Buled",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buled",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/entity/BuledEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Fusilgaus",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusilgaus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/FusilgausItem.java",
+          "src/main/resources/assets/starcraft/models/item/fusilgaus.json"
+        ]
+      }
+    },
+    {
+      "name": "Marine",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/marine_spawn_egg.json",
+          "src/main/java/net/mcreator/starcraft/entity/MarineEntity.java",
+          "src/main/java/net/mcreator/starcraft/client/renderer/MarineRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Goliatharm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goliatharm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/GoliatharmItem.java",
+          "src/main/resources/assets/starcraft/models/item/goliatharm.json"
+        ]
+      }
+    },
+    {
+      "name": "Goliath",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goliath",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/entity/GoliathEntity.java",
+          "src/main/resources/assets/starcraft/models/item/goliath_spawn_egg.json",
+          "src/main/java/net/mcreator/starcraft/client/renderer/GoliathRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Terranlogo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terranlogo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/terranlogo.json",
+          "src/main/java/net/mcreator/starcraft/item/TerranlogoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Terranmobs",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terranmobs",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Zerglogo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zerglogo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/zerglogo.json",
+          "src/main/java/net/mcreator/starcraft/item/ZerglogoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Zergmobs",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zergmobs",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Protosslogo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protosslogo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/protosslogo.json",
+          "src/main/java/net/mcreator/starcraft/item/ProtosslogoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Protossmobs",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protossmobs",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Sc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/ScItem.java",
+          "src/main/resources/assets/starcraft/models/item/sc.json"
+        ]
+      }
+    },
+    {
+      "name": "Scweapons",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scweapons",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Scblocks",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scblocks",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Scveicles",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scveicles",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GoliathreideableitemItemIsDroppedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goliathreideableitem_item_is_dropped_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/GoliathreideableitemItemIsDroppedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Goliathreideableitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goliathreideableitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/goliathreideableitem.json",
+          "src/main/java/net/mcreator/starcraft/item/GoliathreideableitemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Golathrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golathrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/golathrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Draprojitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draprojitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/DraprojitemItem.java",
+          "src/main/resources/assets/starcraft/models/item/draprojitem.json"
+        ]
+      }
+    },
+    {
+      "name": "Dragoonprojectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragoonprojectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/entity/DragoonprojectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Dragoon",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragoon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/entity/DragoonEntity.java",
+          "src/main/java/net/mcreator/starcraft/client/renderer/DragoonRenderer.java",
+          "src/main/resources/assets/starcraft/models/item/dragoon_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Hidraliscoitemprojectile",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hidraliscoitemprojectile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/hidraliscoitemprojectile.json",
+          "src/main/java/net/mcreator/starcraft/item/HidraliscoitemprojectileItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Acid",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/entity/AcidEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Hydralisk",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydralisk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/client/renderer/HydraliskRenderer.java",
+          "src/main/resources/assets/starcraft/models/item/hydralisk_spawn_egg.json",
+          "src/main/java/net/mcreator/starcraft/entity/HydraliskEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "VeicleattackAlSerPresionada",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "veicleattack_al_ser_presionada",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/VeicleattackAlSerPresionadaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BladeAlEntidadSerGolpeadaConLaHerramienta",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blade_al_entidad_ser_golpeada_con_la_herramienta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/BladeAlEntidadSerGolpeadaConLaHerramientaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BespingasAlEntidadColisionarConElBloque",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bespingas_al_entidad_colisionar_con_el_bloque",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/BespingasAlEntidadColisionarConElBloqueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BespingasEnTicksAleatoriosDelCliente",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bespingas_en_ticks_aleatorios_del_cliente",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/BespingasEnTicksAleatoriosDelClienteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mineral",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineral",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/MineralItem.java",
+          "src/main/resources/assets/starcraft/models/item/mineral.json"
+        ]
+      }
+    },
+    {
+      "name": "Mineralblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineralblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/blockstates/mineralblock.json",
+          "src/main/resources/assets/starcraft/models/block/mineralblock.json",
+          "src/main/java/net/mcreator/starcraft/block/MineralblockBlock.java",
+          "src/main/resources/assets/starcraft/models/item/mineralblock.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/mineralblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Mineralcluster",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineralcluster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/mineralcluster.json",
+          "src/main/resources/assets/starcraft/models/block/mineralcluster.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/mineralcluster.json",
+          "src/main/java/net/mcreator/starcraft/block/MineralclusterBlock.java",
+          "src/main/resources/assets/starcraft/blockstates/mineralcluster.json"
+        ]
+      }
+    },
+    {
+      "name": "Mineralcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineralcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/mineralcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Mineralcraft1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineralcraft_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/mineralcraft_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Talo",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/block/talo.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/talo.json",
+          "src/main/resources/assets/starcraft/models/item/talo.json",
+          "src/main/java/net/mcreator/starcraft/block/TaloBlock.java",
+          "src/main/resources/assets/starcraft/blockstates/talo.json"
+        ]
+      }
+    },
+    {
+      "name": "Zerg",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zerg",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TaloAlEntidadCaminarSobreElBloque",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talo_al_entidad_caminar_sobre_el_bloque",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/TaloAlEntidadCaminarSobreElBloqueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vultureprojectile",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vultureprojectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/VultureprojectileItem.java",
+          "src/main/resources/assets/starcraft/models/item/vultureprojectile.json"
+        ]
+      }
+    },
+    {
+      "name": "VultureprojectieCuandoElProyectilAlcancaUnaEntidadViva",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splash_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/VultureprojectieCuandoElProyectilAlcancaUnaEntidadVivaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vultureprojectie",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vultureprojectie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/entity/VultureprojectieEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Vulture",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulture",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/entity/VultureEntity.java",
+          "src/main/java/net/mcreator/starcraft/client/renderer/VultureRenderer.java",
+          "src/main/resources/assets/starcraft/models/item/vulture_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Vulturevehicle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulturevehicle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/vulturevehicle.json",
+          "src/main/java/net/mcreator/starcraft/item/VulturevehicleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VulturevehicleCuandoSeHaceClicConElBotonDerecho",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulturevehicle_cuando_se_hace_clic_con_el_boton_derecho",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/VulturevehicleCuandoSeHaceClicConElBotonDerechoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vespingas",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vespingas",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/fluid/types/VespingasFluidType.java",
+          "src/main/java/net/mcreator/starcraft/fluid/VespingasFluid.java",
+          "src/main/java/net/mcreator/starcraft/block/VespingasBlock.java",
+          "src/main/resources/assets/starcraft/models/block/vespingas.json",
+          "src/main/resources/assets/starcraft/blockstates/vespingas.json",
+          "src/main/resources/assets/starcraft/models/item/vespingas_bucket.json",
+          "src/main/java/net/mcreator/starcraft/item/VespingasItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "zealtliving",
+      "files": [
+        "pzewht02_1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "hurtzealt",
+      "files": [
+        "pzeatt01"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "hitzealot",
+      "files": [
+        "pzehit00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "deadzealot",
+      "files": [
+        "pzeatt00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "overlord",
+      "files": [
+        "zovyes03",
+        "zovyes02",
+        "zovyes01",
+        "zovyes00",
+        "zovwht03",
+        "zovwht02",
+        "zovwht01",
+        "zovwht00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "overlordded",
+      "files": [
+        "zovdth00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "overlordhurt",
+      "files": [
+        "zovdth00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "zerglingded",
+      "files": [
+        "zzedth00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "zerlingliving",
+      "files": [
+        "zzepss00",
+        "zzepss01"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "marineliving",
+      "files": [
+        "tmapss05"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "marinedead",
+      "files": [
+        "tmadth01",
+        "tmadth00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "golativing",
+      "files": [
+        "tgowht03"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "goliatdead",
+      "files": [
+        "tgodth00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "dragoondeat",
+      "files": [
+        "pdrdth00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "drogoonliving",
+      "files": [
+        "pdryes04"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "hidraliscoliving",
+      "files": [
+        "zhyyes00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "hidraliscodeath",
+      "files": [
+        "zhydth00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "buled",
+      "files": [
+        "tgofir00",
+        "tmafir00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "vultureliving",
+      "files": [
+        "tvurdy00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "vulturedeath",
+      "files": [
+        "zbghit00"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "vultureattack",
+      "files": [
+        "tvuhit01"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Mineralcluster",
+      "~CUSTOM:Mineralblock"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Talo"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Talo"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Mineralcluster",
+      "~CUSTOM:Mineralblock"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Vespingas"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Blade"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:Scweapons": [
+      "Fusilgaus",
+      "Blade",
+      "Goliatharm",
+      "Buleditem"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "subtitles.golativing": "",
+      "item.starcraft.buleditem": "Bullet",
+      "item.starcraft.zerglogo": "Zerglogo",
+      "subtitles.dragoondeat": "",
+      "entity.starcraft.goliath": "Goliath",
+      "entity.starcraft.hydralisk": "Hydralisk",
+      "block.starcraft.vespingas": "Bespin gas",
+      "entity.starcraft.marine": "Marine",
+      "item.starcraft.marine_spawn_egg": "Marine Spawn Egg",
+      "subtitles.overlordhurt": "",
+      "item.starcraft.protosslogo": "Protosslogo",
+      "item.starcraft.vespingas_bucket": "Bespin gas Bucket",
+      "item.starcraft.zealot_spawn_egg": "Zealot Spawn Egg",
+      "subtitles.goliatdead": "",
+      "item.starcraft.dragoon_spawn_egg": "Dragoon Spawn Egg",
+      "subtitles.hurtzealt": "",
+      "item.starcraft.vultureprojectile": "Vulture projectile",
+      "subtitles.zealtliving": "",
+      "subtitles.zerglingded": "",
+      "item_group.starcraft.scblocks": "Sc blocks",
+      "item.starcraft.goliatharm": "Goliath arm",
+      "block.starcraft.mineralblock": "Mineral block",
+      "subtitles.overlord": "",
+      "entity.starcraft.overlord": "Overlord",
+      "subtitles.zerlingliving": "",
+      "subtitles.marineliving": "",
+      "entity.starcraft.zealot": "Zealot",
+      "item.starcraft.fusilgaus": "Fusil gaus C 14",
+      "item.starcraft.draprojitem": "Draprojitem",
+      "fluid.starcraft.vespingas": "Bespin gas",
+      "item.starcraft.goliath_spawn_egg": "Goliath Spawn Egg",
+      "subtitles.hidraliscoliving": "",
+      "subtitles.marinedead": "",
+      "item.starcraft.hydralisk_spawn_egg": "Hydralisk Spawn Egg",
+      "item.starcraft.mineral": "Mineral",
+      "item.starcraft.terranlogo": "Terranlogo",
+      "item.starcraft.goliathreideableitem": "Goliath vehicle",
+      "item_group.starcraft.terranmobs": "Terran mobs",
+      "subtitles.drogoonliving": "",
+      "item_group.starcraft.protossmobs": "Protoss mobs",
+      "item.starcraft.sc": "Sc",
+      "key.starcraft.veicleattack": "Vehicle attack",
+      "item_group.starcraft.scveicles": "Sc veicles",
+      "attribute.starcraft.zerg": "Zerg",
+      "subtitles.dragoonliving": "",
+      "item.starcraft.hidraliscoitemprojectile": "Hidraliscoitemprojectile",
+      "subtitles.vulturedeath": "",
+      "item.starcraft.overlord_spawn_egg": "Overlord Spawn Egg",
+      "entity.starcraft.dragoon": "Dragoon",
+      "item.starcraft.vulturevehicle": "Vulture vehicle",
+      "block.starcraft.talo": "Talo",
+      "subtitles.buled": "",
+      "entity.starcraft.vulture": "Vulture",
+      "item.starcraft.blade": "Blade",
+      "subtitles.overlordded": "",
+      "item.starcraft.vulture_spawn_egg": "Vulture Spawn Egg",
+      "item_group.starcraft.zergmobs": "Zerg mobs",
+      "item.starcraft.zergling_spawn_egg": "Zergling Spawn Egg",
+      "item_group.starcraft.scweapons": "Sc tools",
+      "subtitles.vultureattack": "",
+      "subtitles.hidraliscodeath": "",
+      "subtitles.deadzealot": "",
+      "block.starcraft.mineralcluster": "Mineral cluster",
+      "subtitles.vultureliving": "",
+      "subtitles.hitzealot": "",
+      "entity.starcraft.zergling": "Zergling"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "starcraft",
+    "modName": "starcraft",
+    "version": "1.0.0",
+    "author": "sebas, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.starcraft"
+  },
+  "mcreatorVersion": 202400452410
+}

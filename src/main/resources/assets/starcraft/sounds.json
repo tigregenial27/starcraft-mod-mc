@@ -1,0 +1,210 @@
+{
+  "zealtliving": {
+    "sounds": [
+      {
+        "name": "starcraft:pzewht02_1",
+        "stream": false
+      }
+    ]
+  },
+  "hurtzealt": {
+    "sounds": [
+      {
+        "name": "starcraft:pzeatt01",
+        "stream": false
+      }
+    ]
+  },
+  "hitzealot": {
+    "sounds": [
+      {
+        "name": "starcraft:pzehit00",
+        "stream": false
+      }
+    ]
+  },
+  "deadzealot": {
+    "sounds": [
+      {
+        "name": "starcraft:pzeatt00",
+        "stream": false
+      }
+    ]
+  },
+  "overlord": {
+    "sounds": [
+      {
+        "name": "starcraft:zovyes03",
+        "stream": false
+      },
+      {
+        "name": "starcraft:zovyes02",
+        "stream": false
+      },
+      {
+        "name": "starcraft:zovyes01",
+        "stream": false
+      },
+      {
+        "name": "starcraft:zovyes00",
+        "stream": false
+      },
+      {
+        "name": "starcraft:zovwht03",
+        "stream": false
+      },
+      {
+        "name": "starcraft:zovwht02",
+        "stream": false
+      },
+      {
+        "name": "starcraft:zovwht01",
+        "stream": false
+      },
+      {
+        "name": "starcraft:zovwht00",
+        "stream": false
+      }
+    ]
+  },
+  "overlordded": {
+    "sounds": [
+      {
+        "name": "starcraft:zovdth00",
+        "stream": false
+      }
+    ]
+  },
+  "overlordhurt": {
+    "sounds": [
+      {
+        "name": "starcraft:zovdth00",
+        "stream": false
+      }
+    ]
+  },
+  "zerglingded": {
+    "sounds": [
+      {
+        "name": "starcraft:zzedth00",
+        "stream": false
+      }
+    ]
+  },
+  "zerlingliving": {
+    "sounds": [
+      {
+        "name": "starcraft:zzepss00",
+        "stream": false
+      },
+      {
+        "name": "starcraft:zzepss01",
+        "stream": false
+      }
+    ]
+  },
+  "marineliving": {
+    "sounds": [
+      {
+        "name": "starcraft:tmapss05",
+        "stream": false
+      }
+    ]
+  },
+  "marinedead": {
+    "sounds": [
+      {
+        "name": "starcraft:tmadth01",
+        "stream": false
+      },
+      {
+        "name": "starcraft:tmadth00",
+        "stream": false
+      }
+    ]
+  },
+  "golativing": {
+    "sounds": [
+      {
+        "name": "starcraft:tgowht03",
+        "stream": false
+      }
+    ]
+  },
+  "goliatdead": {
+    "sounds": [
+      {
+        "name": "starcraft:tgodth00",
+        "stream": false
+      }
+    ]
+  },
+  "dragoondeat": {
+    "sounds": [
+      {
+        "name": "starcraft:pdrdth00",
+        "stream": false
+      }
+    ]
+  },
+  "drogoonliving": {
+    "sounds": [
+      {
+        "name": "starcraft:pdryes04",
+        "stream": false
+      }
+    ]
+  },
+  "hidraliscoliving": {
+    "sounds": [
+      {
+        "name": "starcraft:zhyyes00",
+        "stream": false
+      }
+    ]
+  },
+  "hidraliscodeath": {
+    "sounds": [
+      {
+        "name": "starcraft:zhydth00",
+        "stream": false
+      }
+    ]
+  },
+  "buled": {
+    "sounds": [
+      {
+        "name": "starcraft:tgofir00",
+        "stream": false
+      },
+      {
+        "name": "starcraft:tmafir00",
+        "stream": false
+      }
+    ]
+  },
+  "vultureliving": {
+    "sounds": [
+      {
+        "name": "starcraft:tvurdy00",
+        "stream": false
+      }
+    ]
+  },
+  "vulturedeath": {
+    "sounds": [
+      {
+        "name": "starcraft:zbghit00",
+        "stream": false
+      }
+    ]
+  },
+  "vultureattack": {
+    "sounds": [
+      {
+        "name": "starcraft:tvuhit01",
+        "stream": false
+      }
+    ]
+  }
+}

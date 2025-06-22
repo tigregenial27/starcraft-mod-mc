@@ -1,0 +1,7 @@
+{
+  "parent": "starcraft:custom/blade",
+  "textures": {
+    "0": "starcraft:block/blade",
+    "particle": "starcraft:item/blde"
+  }
+}

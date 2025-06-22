@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "starcraft:block/mineralcluster"
+    },
+    "facing=east": {
+      "model": "starcraft:block/mineralcluster",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "starcraft:block/mineralcluster",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "starcraft:block/mineralcluster",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "starcraft:block/mineralcluster",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "starcraft:block/mineralcluster",
+      "x": 90
+    }
+  }
+}

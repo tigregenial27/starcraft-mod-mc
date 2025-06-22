@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "starcraft:block/amethyst_cluster",
+    "particle": "starcraft:block/amethyst_cluster"
+  },
+  "render_type": "cutout"
+}

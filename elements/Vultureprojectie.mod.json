@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Vultureprojectile"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:vultureattack"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 5.5,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 1.0,
+    "modelHeight": 1.0,
+    "onHitsEntity": {
+      "name": "VultureprojectieCuandoElProyectilAlcancaUnaEntidadViva"
+    }
+  }
+}
